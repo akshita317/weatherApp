@@ -1,17 +1,17 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Lucida Sans';
+    font-family: 'Poppins'',sans-serif;
     box-sizing: border-box;
 }
 body{
-    background-color: azure ;
+    background-color: #2eb4d8 ;
 
 }
 .card{
     width: 90%;
     max-width: 500px;
-    background: linear-gradient(135deg,#bec3d0fc, #65adb2);
+    background: linear-gradient(135deg,#00feba, #5b548a);
     color: #fff;
     margin: 100px auto 0;
     border-radius: 20px;
@@ -21,7 +21,6 @@ body{
 }
 .search{
     width: 100%;
-    height: 100%;
     display: flex;
     align-items:center;
     justify-content:space-between;
@@ -30,7 +29,7 @@ body{
     border: 0;
     outline: 0;
     background: #ebfffc;
-    color: #100808ec;
+    color: #555;
     padding: 10px 25px;
     height: 60px;
     border-radius: 30px;
@@ -44,25 +43,23 @@ body{
     background: #ebfffc;
     border-radius: 50%;
     width: 60px;
-    height: 0px;
+    height: 60px;
    cursor: pointer;
 }
 .search button img{
-    width:30px;
-    bottom: 15px;
-     position:relative;
+    width:16px;
    }
 .icon{
-    width:200px;
+    width:170px;
     margin-top: 30px;
 }
 
 .weather h1{
-    font-size: 60px;
+    font-size: 80px;
     font-weight: 500;
 }
 .weather h2{
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 400;
     margin-top: -10px;
 }
@@ -83,12 +80,12 @@ body{
     margin-right: 5px;
 }
 .humidity{
-    font-size: 20px;
+    font-size: 28px;
     margin-top: -6px;
     font-family: 'sans-serif';
 }
 .Wind{
-    font-size: 20px;
+    font-size: 28px;
     margin-top: -6px;
     font-family: 'sans-serif';
 }
